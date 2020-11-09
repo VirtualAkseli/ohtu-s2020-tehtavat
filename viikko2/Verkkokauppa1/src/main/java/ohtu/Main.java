@@ -8,16 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
-        /*
-        Viitegeneraattori viitegen = ctx.getBean(Viitegeneraattori.class);
-        
-        Kirjanpito kirjanpito = ctx.getBean(Kirjanpito.class);
-        
-        Varasto varasto = new Varasto(kirjanpito);
-        Pankki pankki = new Pankki(kirjanpito);
-        
-        
-        */
+       
         Kauppa kauppa = ctx.getBean(Kauppa.class);
         
         
