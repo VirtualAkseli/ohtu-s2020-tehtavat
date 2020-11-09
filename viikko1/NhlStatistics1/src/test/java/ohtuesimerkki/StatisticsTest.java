@@ -52,7 +52,7 @@ public class StatisticsTest {
     @Test 
     public void playerSearchworks2() {
         
-        assertEquals("Gretzky", stats.search("Gretzky").getName());
+        assertEquals("Gretzky", stats.search("Gretzn ky").getName());
     }
 
     @Test
