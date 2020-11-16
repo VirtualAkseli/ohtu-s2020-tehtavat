@@ -1,0 +1,13 @@
+password should have at least 8 characters
+
+@Then("user with invalid password is not created and error {string} is reported")
+    public void invalidNewPassword(String error) {
+        pageHasContent(error);
+    }
+
+@When("a valid username {string} and too short of a password {password} and matching password confirmation are entered")
+    public void invalidNewPassword(String username, String password) {
+        signUpWith(username, password);
+    }
+
+
