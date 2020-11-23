@@ -6,3 +6,5 @@
 
 ![Viikko 3](https://github.com/VirtualAKseli/ohtu-s2020-tehtavat/tree/main/viikko3)
 
+![Viikko 4](https://github.com/VirtualAKseli/ohtu-s2020-tehtavat/tree/main/viikko4)
+
